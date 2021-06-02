@@ -1,0 +1,42 @@
+body {
+    background-color: #f5abc9;
+}
+
+img {max-width: 250px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+img:hover {
+    cursor:grab/pointer;
+}
+img {max-width: 250px;
+}
+
+#header {
+    display: flex;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    
+}   
+
+.container >div:nth-child(1){
+    flex: 1
+}
+.container >div:nth-child(2) {
+    flex: 3
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    
+}   
+ul#myhand {
+    list-style-type: none;
+    }
