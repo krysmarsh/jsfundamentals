@@ -116,3 +116,17 @@ if(i % 2 === 0) {
 //ODD
 console.log("This is odd");
 }
+
+
+let callback = (num) => {
+    if (num % 2 === 0) {
+        console.log(`${num} is even`)
+    } else if (num % 1 === 0) {
+        console.log(`${num} is odd`)
+    } else {
+      console.log("What is this?")
+    }
+}
+for(let num = 0; num <= 10; num++){
+  callback(num)
+}
